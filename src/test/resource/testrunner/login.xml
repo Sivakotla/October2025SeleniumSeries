@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="App Test Suite" verbose="4">
+
+	<test name="LoginNegative Test">
+		<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.LoginNegativeTest" />
+		</classes>
+	</test>
+
+
+
+
+</suite> 

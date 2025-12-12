@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="App Test Suite" thread-count = "3" parallel ="test" verbose="4">
+
+	<test name="Amazon Test">
+		<parameter name="url" value="https://www.amazon.com" />
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="TestCases.AmazonTest" />
+		</classes>
+	</test>
+
+	<test name="Freshworks Test">
+		<parameter name="url" value="https://www.freshworks.com" />
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="TestCases.FreshWorksTest" />
+		</classes>
+	</test>
+
+	<test name="Google Test">
+		<parameter name="url" value="https://www.google.com" />
+		<parameter name="browser" value="safari"/>
+		<classes>
+			<class name="TestCases.GoogleTest" />
+		</classes>
+	</test>
+
+
+
+</suite> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="App Test Suite" verbose="4">
+
+	<test name="Amazon Test">
+		<classes>
+			<class name="TestCases.AmazonTest" />
+			<class name="TestCases.GoogleTest" />
+			<class name="TestCases.FreshWorksTest" />
+		</classes>
+	</test>
+
+
+
+</suite> 
